@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTest">
+  <test thread-count="5" name="RegressionTest">
+    <classes>
+      <class name="tests.CreateTripTest"/>
+      <class name="tests.UserRegisterTest"/>
+      <class name="tests.ChangeLanguageTest"/>
+      <class name="tests.ContactUsTest"/>
+      <class name="tests.ListOfWebElementTests"/>
+      <class name="tests.TermsTests"/>
+      <class name="tests.ChangeCurrencyTest"/>
+      <class name="tests.CancellationTest"/>
+      <class name="tests.UserLoginTest"/>
+      <class name="tests.SearchTest"/>
+    </classes>
+  </test> <!-- RegressionTest -->
+</suite> <!-- RegressionTest -->
